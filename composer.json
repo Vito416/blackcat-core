@@ -1,0 +1,83 @@
+{
+  "name": "blackcatacademy/blackcat-core",
+  "description": "BlackCat kernel: secure DB wrapper, crypto primitives, and core utilities for the modular BlackCat ecosystem.",
+  "type": "library",
+  "license": "proprietary",
+  "homepage": "https://github.com/blackcatacademy/blackcat-core",
+  "keywords": ["kernel", "security", "database", "pdo", "libsodium", "encryption", "crypto", "observability"],
+  "authors": [
+    {
+      "name": "Black Cat Academy s. r. o.",
+      "email": "blackcatacademy@protonmail.com",
+      "role": "owner"
+    }
+  ],
+  "support": {
+    "email": "blackcatacademy@protonmail.com",
+    "issues": "https://github.com/blackcatacademy/blackcat-core/issues",
+    "source": "https://github.com/blackcatacademy/blackcat-core"
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-sodium": "*",
+    "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
+    "psr/log": "^1.1 || ^2.0 || ^3.0"
+  },
+  "suggest": {
+    "ext-curl": "Used by some optional helpers (e.g. Recaptcha).",
+    "ext-mbstring": "Improves SQL preview sanitization and multibyte handling in logs.",
+    "blackcatacademy/blackcat-database": "Generated repositories + installer (single source of truth for schemas/views).",
+    "blackcatacademy/blackcat-sessions": "DB-backed sessions module.",
+    "blackcatacademy/blackcat-mailing": "DB-backed notifications + mail worker.",
+    "blackcatacademy/blackcat-messaging": "DB-backed outbox/inbox and messaging workers.",
+    "blackcatacademy/blackcat-auth": "Authentication flows (register/login/reset/verify/magic-link/webauthn).",
+    "blackcatacademy/blackcat-jobs": "DB-backed job queue (system_jobs).",
+    "blackcatacademy/blackcat-jwt": "JWT issuing/verification + optional DB revocation store.",
+    "blackcatacademy/blackcat-rbac": "RBAC module on top of blackcat-database.",
+    "blackcatacademy/blackcat-gopay": "GoPay gateway integration module."
+  },
+  "autoload": {
+    "psr-4": {
+      "BlackCat\\Core\\": "src/",
+      "BlackCat\\Database\\": "src/DatabaseCompat/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BlackCat\\Core\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5",
+    "phpstan/phpstan": "^1.11 || ^2.0"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --colors=always",
+    "stan": "vendor/bin/phpstan analyse --memory-limit=512M"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.x-dev"
+    }
+  },
+  "archive": {
+    "exclude": [
+      "tests",
+      ".github",
+      "docs",
+      "examples",
+      "Makefile",
+      "phpunit.xml*",
+      "phpstan.neon*",
+      ".php-cs-fixer.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

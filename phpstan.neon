@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    tmpDir: var/phpstan
+    reportUnmatchedIgnoredErrors: true
+    tipsOfTheDay: false
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - identifier: missingType.iterableValue
