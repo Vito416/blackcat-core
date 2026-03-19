@@ -1,96 +1,83 @@
-© 2025 Black Cat Academy s. r. o. All rights reserved.
-Version 1.0 – October 2025
+Blackcat Covered System Transitional License Notice
+Version 1.0 - March 2026
 
-BlackCat\Store Proprietary License
+Licensor: Black Cat Academy s. r. o.
+Repository: blackcat-core
+Contact: blackcatacademy@protonmail.com
 
-This proprietary license is intended to protect the intellectual property, security, and integrity of the Software.
+This repository is an official component of the Blackcat Covered System.
 
-1. Ownership
-This software and all associated components, libraries, documentation, and source code ("Software") are the exclusive property of Black Cat Academy s. r. o. All rights, title, and interest are reserved.
+This transitional license notice is intended to replace older repository-local proprietary wording with a single covered-system interpretation until a final founder-fee umbrella license is formally adopted.
 
-2. Permitted Use
-Subject to explicit written permission from the author, you may:
-- Use the Software for personal or internal evaluation purposes only.
-- Test or experiment with the Software in a non-commercial setting.
-- Permission may be granted for educational or research purposes under separate terms.
+1. Covered System Status
 
-3. Prohibited Use
-Without prior written consent from Black Cat Academy s. r. o., you may NOT:
-- Redistribute, copy, or sublicense the Software.
-- Modify, reverse engineer, decompile, or disassemble the Software.
-- Use the Software for commercial purposes, including any form of paid service or product.
-- Create or publish forks of the Software for commercial use. For the avoidance of doubt, creating a fork of the Software to be used, offered, sold, or otherwise exploited in any commercial context is strictly prohibited without a separate, explicit commercial license from Black Cat Academy s. r. o.
+This repository is intended to be interpreted as one official component of the Blackcat Covered System, together with other official Blackcat repositories, packages, services, schemas, manifests, gateways, contracts, and future mandatory internal components designated in the official licensing materials.
 
-4. Warranty Disclaimer
-The Software is provided "as-is" and without any warranty, express or implied, including but not limited to fitness for a particular purpose, non-infringement, or merchantability. Black Cat Academy s. r. o. shall not be liable for any damages arising from the use or inability to use the Software.
+Repository separation exists primarily for maintenance, safety, delivery, auditability, and architectural clarity. It should not be interpreted by default as creating a separate unavoidable founder fee, steward fee, or other duplicative payment event for the same ordinary covered deployment class.
 
-5. Limitation of Liability
-In no event shall Black Cat Academy s. r. o. be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or business opportunities, even if advised of the possibility of such damages.
+2. Current Rights Granted
 
-6. Licensing Inquiries
-Requests for commercial licensing, redistribution, or other permissions should be directed to:
-**blackcatacademy@protonmail.com**
-Black Cat Academy s. r. o. will respond to licensing inquiries within a reasonable timeframe.
+Subject to compliance with this notice, you may:
 
-7. Governing Law
-This License shall be governed by and construed in accordance with the laws of the Slovak Republic, without regard to conflict of law principles.
+- read, inspect, clone, and audit the source code;
+- compile, run, and modify the repository for internal evaluation, testing, security review, interoperability work, and other non-production use;
+- create internal forks and local proof-of-concept builds for non-production use;
+- and publish commentary, audit findings, benchmarks, or interoperability notes, provided you do not misrepresent official status or disclose protected secrets.
 
-8. Enforcement
-8.1 Remedies. Any unauthorized use, distribution, modification, or commercial exploitation of the Software (including creating or offering forks for commercial use) constitutes a material breach of this License and will entitle Black Cat Academy s. r. o. to pursue all available remedies under law and equity, including, but not limited to:
-  - Immediate termination of any rights granted under this License.
-  - Injunctive relief (temporary and permanent injunctions) to prevent continued unauthorized use or distribution.
-  - Recovery of actual damages, statutory damages where applicable, and disgorgement of profits attributable to the breach.
-  - Recovery of all costs and expenses, including reasonable attorneys' fees, incurred in enforcing this License.
+3. No Production, Network, or Commercial Right by Default
 
-8.2 Preservation and Destruction. Upon notice of termination for breach, the licensee must, within a reasonable time, cease all use of the Software and certify in writing that all copies, derivatives, builds, and forks (including any copies stored on servers, cloud storage, or distribution channels) have been returned or destroyed.
+This transitional notice does not by itself grant any production-use, network-use, hosted-service, or other commercial operating right.
 
-8.3 Criminal and Regulatory Referrals. Black Cat Academy s. r. o. reserves the right to refer matters of willful infringement or other unlawful conduct to appropriate law enforcement or regulatory authorities.
+Unless separately authorized in writing by the Licensor, or unless a final covered-system founder-fee license is later formally adopted by signed public notice, you may not:
 
-8.4 Enforcement Procedure. Complaints or reports of suspected violations should be sent to blackcatacademy@protonmail.com and must include sufficient detail to identify the allegedly infringing material. Black Cat Academy s. r. o. will investigate reported violations and may take appropriate legal action where warranted.
+- operate this repository or software derived from it in production for a live website, e-shop, gateway, hosted environment, or other public or commercial service;
+- offer it as a managed service, SaaS, shared hosting component, or customer-facing network service;
+- or commercially exploit the repository, derivative works based on it, or official Blackcat branding.
 
-8.5 No Waiver. Failure to enforce any provision of this License shall not constitute a waiver of future enforcement of that or any other provision.
+4. Relation to the Planned BFNL Bundle
 
----
+The current planned founder-fee and covered-system licensing bundle is documented in the `blackcat-darkmesh-ao/docs/` directory, including the draft BFNL text, fee policy, system-scope policy, anti-circumvention policy, notice framework, contributor terms, trademark terms, and registry terms.
 
-Company Details (for inclusion in license / registry reference)
+Those documents describe the intended future umbrella model and should be treated as interpretive guidance for:
 
-Register Section: Sro
-Entry Number: 81922/L
+- covered-system scope;
+- no per-repository fee multiplication;
+- accessibility and anti-capture intent;
+- notice authenticity and succession logic;
+- and the planned future founder-fee and steward-fee structure.
 
-Business Name:
-Black Cat Academy s. r. o.
+However, unless and until a final umbrella license is formally adopted by signed public notice, those draft documents do not by themselves grant broader operating rights than this transitional notice.
 
-Registered Address:
-Dolná ulica 1C
-Kunerad 013 13
+5. No Per-Repository Fee Multiplication by Default
 
-Company ID (IČO):
-55 396 461
+If the founder-fee or steward-fee model is formally adopted for the Covered System, the default intended interpretation for ordinary deployment classes is one integrated licensing surface across the official repositories needed for that covered deployment, not a separate unavoidable fee for each repository.
 
-Date of Entry:
-21 April 2023
+6. Trademark and Registry Separation
 
-Legal Form:
-Limited Liability Company (Spoločnosť s ručením obmedzeným)
+No trademark, trade name, verified listing, certification mark, or official support right is granted by this notice.
 
-Shareholders:
-- Vit Black
-  Mateja Bela 3445/59
-  Žilina 010 15
+Use of official Blackcat branding, verified labels, registry status, or other trust signals remains subject to separate trademark, registry, or support terms.
 
-- Jaine Black
-  Mateja Bela 3445/59
-  Žilina 010 15
+7. Supersession
 
-Výška vkladu každého spoločníka:
-- Vit Black — Vklad: 2 500 EUR (Splatené: 2 500 EUR)
-- Jaine Black — Vklad: 2 500 EUR (Splatené: 2 500 EUR)
+This transitional notice may be superseded by a later final umbrella license, including a final BFNL or successor covered-system license, if and when the Licensor publishes that superseding instrument through an authorized public notice channel.
 
-Štatutárny orgán (konatelia):
-- Vit Black
-- Jaine Black
-Konanie menom spoločnosti: V mene spoločnosti koná a podpisuje každý konateľ samostatne.
+Until such supersession, this notice governs this repository together with any explicit separate written authorization granted by the Licensor.
 
-Výška základného imania: 5 000 EUR (Rozsah splatenia: 5 000 EUR)
+8. Disclaimer
 
----
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+9. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, OR FOR LOST PROFITS, REVENUE, DATA, OR BUSINESS INTERRUPTION.
+
+10. Governing Law
+
+This notice shall be governed by the laws of the Slovak Republic, excluding conflict-of-law rules, unless a later final umbrella license states otherwise.
+
+11. Contact
+
+Licensing and permission inquiries:
+
+- blackcatacademy@protonmail.com
