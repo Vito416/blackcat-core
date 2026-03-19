@@ -4,7 +4,16 @@
   "type": "library",
   "license": "proprietary",
   "homepage": "https://github.com/blackcatacademy/blackcat-core",
-  "keywords": ["kernel", "security", "database", "pdo", "libsodium", "encryption", "crypto", "observability"],
+  "keywords": [
+    "kernel",
+    "security",
+    "database",
+    "pdo",
+    "libsodium",
+    "encryption",
+    "crypto",
+    "observability"
+  ],
   "authors": [
     {
       "name": "Black Cat Academy s. r. o.",
@@ -15,7 +24,8 @@
   "support": {
     "email": "blackcatacademy@protonmail.com",
     "issues": "https://github.com/blackcatacademy/blackcat-core/issues",
-    "source": "https://github.com/blackcatacademy/blackcat-core"
+    "source": "https://github.com/blackcatacademy/blackcat-core",
+    "docs": "https://github.com/Vito416/blackcat-darkmesh-ao/blob/main/docs/BFNL-1.0.md"
   },
   "require": {
     "php": "^8.1",
@@ -64,7 +74,10 @@
   "extra": {
     "branch-alias": {
       "dev-main": "1.x-dev"
-    }
+    },
+    "blackcat-license": "BFNL-1.0",
+    "blackcat-covered-system-notice": "https://github.com/Vito416/blackcat-darkmesh-ao/blob/main/docs/LICENSING_SYSTEM_NOTICE.md",
+    "blackcat-founder-fee-policy": "https://github.com/Vito416/blackcat-darkmesh-ao/blob/main/docs/FEE_POLICY.md"
   },
   "archive": {
     "exclude": [
